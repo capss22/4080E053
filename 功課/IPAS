@@ -64,31 +64,43 @@ D. Smurf attack   (Smurf攻擊)        //以最初發動攻擊的程式命名
 ----------------------------------------------------------------------------------------------------------------------------------
 答案:D
 -----------------------------------------------------------------------------------------------------------------------------------
-112. An attacker enters code into a text box on a website. That text box is used for product
-reviews. The attacker wants his code to execute the next time a visitor visits that page.
-What is this attack called?
-A. SQL injection
-B. Logic bomb
-C. Cross-site scripting
-D. Session hijacking
-113. A user is redirected to a different website when the user requests the DNS record
-www.xyz.com. Which of the following is this an example of?
-A. DNS poisoning
-B. DoS
-C. DNS caching
-D. Smurf attack
-114. Tom is the network administrator for a small accounting firm. As soon as he comes in to
-work, users report to him that they cannot connect to the network. After investigating,
-Tom discovers that none of the workstations can connect to the network and all have an
+112. An attacker enters(攻擊者進入) code into a text box on a website(攻擊者在網站的文本框中輸入代碼). That text box is used for product
+reviews.(該文本框用於產品評論) The attacker wants his code to execute the next time a visitor visits that page
+(攻擊者希望他的代碼在下次訪問者訪問該頁面時執行)
+What is this attack called? (這種攻擊叫什麼？)
+A. SQL injection (SQL注入)
+B. Logic bomb  (邏輯炸彈)
+C. Cross-site scripting (跨網站指令碼)
+D. Session hijacking (竊取 Session ID) //攻擊者可以利用多種方式竊取 Cookie 獲取 Session ID
+------------------------------------------------------------------------------------------------------------------------------
+A:
+------------------------------------------------------------------------------------------------------------------------------
+113. A user is redirected to a different website(用戶被重定向到其他網站) when the user requests the DNS record
+www.xyz.com.(當用戶請求DNS記錄時www.xyz.com。) Which of the following is this an example of?(這是以下哪個示例？)
+A. DNS poisoning (DNS中毒)
+B. DoS (阻斷服務攻擊)
+C. DNS caching (DNS緩存中毒)
+D. Smurf attack (Smurf攻击)//方法結合使用了IP欺騙和ICMP回複方法使大量網絡傳輸充斥目標系統，引起目標系統拒絕為正常系統進行服務
+--------------------------------------------------------------------------------------------------------------------------------
+A:
+--------------------------------------------------------------------------------------------------------------------------------
+114. Tom is the network administrator for a small accounting firm.(湯姆是一家小型會計師事務所的網絡管理員)
+ As soon as he comes in to work,(他一進來工作) users report to him that they cannot connect to the network.(用戶向他報告他們無法連接到網絡)
+ After investigating,(經過調查)Tom discovers that none of the workstations can connect to the network and all have an
 IP address in the form of 169.254.x.x. What has occurred?
-A. Smurf attack
-B. Man-in-the-middle attack
-C. DDoS
-D. DHCP starvation
+(Tom發現沒有工作站可以連接到網絡，並且所有工作站都具有IP地址為169.254.x.x。發生了什麼事？)
+A. Smurf attack (Smurf攻击)//方法結合使用了IP欺騙和ICMP回複方法使大量網絡傳輸充斥目標系統，引起目標系統拒絕為正常系統進行服務
+B. Man-in-the-middle attack (中間人攻擊)
+C. DDoS (分散式阻斷服務攻擊)
+D. DHCP starvation (DHCP餓死問題)
+--------------------------------------------------------------------------------------------------------------------------------
+A:
+--------------------------------------------------------------------------------------------------------------------------------
 115. Which of the following would most likely use a group of bots to stop a web server from
-accepting new requests?
-A. DoS
-B. DDoS
-C. Buffer overflow
-D. Trojan horse
+accepting new requests? (以下哪項最有可能使用一組機器人來阻止Web服務器從接受新的要求？)
+A. DoS(阻斷服務攻擊)
+B. DDoS(分散式阻斷服務攻擊)
+C. Buffer overflow(緩衝區溢位)
+D. Trojan horse(木馬)
+---------------------------------------------------------------------------------------------------------------------------------
 
