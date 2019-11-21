@@ -183,7 +183,7 @@ tracert www.ksu.edu.tw
 ```
 ### TCP vs UDP 
 ```
-![Alt text](http://telescript.denayer.wenk.be/~hcr/cn/idoceo/images/tcp_header.gif) 
+![Alt text](tcp_header.gif) 
 TCP vs UDP Comparison
 https://www.youtube.com/watch?v=uwoD5YsGACg
 ```
