@@ -182,8 +182,11 @@ tracert www.ksu.edu.tw
 作業:tracert www.ksu.edu.tw
 ```
 ### TCP vs UDP 
+
+![tcp header](tcp_header.gif) 
+
 ```
-![Alt text](tcp_header.gif) 
+```
 TCP vs UDP Comparison
 https://www.youtube.com/watch?v=uwoD5YsGACg
 ```
